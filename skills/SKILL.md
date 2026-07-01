@@ -6,10 +6,10 @@ description: >
   Handles: visiting the page via in-app browser, generating rich tags (NO generic tags),
   in-app browser screenshot + upload, Notion page creation.
 
-## Database Info
-- Data Source ID: 23a6a5fa-4984-802a-a53f-000bb3d8182c
-- Token: env:NOTION_API_TOKEN
-- Image upload: https://likunqi.top/upload
+ ## Database Info
+ - Data Source ID: env:NOTION_DATA_SOURCE_ID
+ - Token: env:NOTION_API_TOKEN
+ - Image upload: https://likunqi.top/upload
 
 ## User Interest Profile
 Based on 1269+ collected repos. The user is a novelty tool hunter:

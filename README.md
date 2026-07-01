@@ -20,6 +20,7 @@
 1. **Codex CLI** — 需要安装 Codex 桌面版
 2. **Node.js** — 使用 Codex 内置运行时（含 Playwright）
 3. **Notion API Token** — 环境变量 `NOTION_API_TOKEN`
+4. **Notion Data Source ID** — 环境变量 `NOTION_DATA_SOURCE_ID`（你的 Notion 数据库 UUID）
 4. **gh CLI** — 已认证的 GitHub CLI（用于 Step 7 搜索类似项目）
 
 ### 安装插件
