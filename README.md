@@ -10,7 +10,7 @@
 - **图床上传** — 截图自动上传到 [likunqi.top](https://likunqi.top)
 - **更新时间** — 从 GitHub 页面提取最后推送时间，自动判定更新状态（近一年/两年/三年/暂停更新）
 - **Notion 入库** — 使用 Notion API v2025-09-03 创建完整记录
-- **同类推荐** — 通过 `gh CLI` 搜索类似项目，自动去重检查是否已收录
+- **同类推荐** — 通过 `agent-reach`（多平台搜索 CLI，GitHub 搜索使用 gh CLI 后端）搜索类似项目，自动去重检查是否已收录
 - **AGENTS.md 更新** — 自动追加收录日志到项目 AGENTS.md
 
 ## 安装
@@ -21,7 +21,7 @@
 2. **Node.js** — 使用 Codex 内置运行时（含 Playwright）
 3. **Notion API Token** — 环境变量 `NOTION_API_TOKEN`
 4. **Notion Data Source ID** — 环境变量 `NOTION_DATA_SOURCE_ID`（你的 Notion 数据库 UUID）
-4. **gh CLI** — 已认证的 GitHub CLI（用于 Step 7 搜索类似项目）
+4. **agent-reach** — 多平台搜索 CLI，用于 Step 7 搜索类似项目。GitHub 搜索通过 gh CLI 后端实现（若仅需 GitHub 搜索也可直接使用 `gh CLI`）
 
 ### 安装插件
 
@@ -85,7 +85,7 @@ Notion 数据库名：**github知识库**
 - **Notion API** — v2025-09-03
 - **Playwright** — 浏览器截图（playwright-core@1.61.0）
 - **Node.js** — 数据处理、Notion API 调用
-- **PowerShell / gh CLI** — 搜索同类项目
+- **agent-reach**（多平台搜索 CLI，GitHub 搜索通过 gh CLI 后端）— 搜索同类项目
 
 ## 版本历史
 
