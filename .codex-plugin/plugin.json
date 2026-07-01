@@ -1,0 +1,22 @@
+{
+  "name": "collect-repo",
+  "version": "0.2.0",
+  "description": "Save GitHub repos to Notion knowledge base with metadata, screenshots, and tags",
+  "author": {
+    "name": "Codex"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Collect Repo",
+    "shortDescription": "收录 GitHub 项目到 Notion 知识库",
+    "longDescription": "用户发 GitHub 链接时，自动访问页面、生成标签（禁止水标签）、用本地浏览器截图上传到图床、创建 Notion 记录。",
+    "developerName": "Codex",
+    "category": "Productivity",
+    "capabilities": [],
+    "defaultPrompt": [
+      "收藏这个项目到 Notion 知识库",
+      "帮我收录这个 GitHub 仓库",
+      "保存 [repo-url] 到数据库"
+    ]
+  }
+}

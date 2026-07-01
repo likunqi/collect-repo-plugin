@@ -1,0 +1,13 @@
+﻿# Codex plugin build artifacts
+node_modules/
+.tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
